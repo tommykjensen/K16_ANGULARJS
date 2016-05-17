@@ -11,14 +11,20 @@ Contents:&#13;
 - A method to open Incidents in a form modal.</description>
         <global>false</global>
         <name>sn_k16_im.k16.incident_manager.ctlr</name>
-        <script/>
+        <script><![CDATA[angular.module('k16.incident_manager.app').controller('IncidentManagerCtrl', ['$scope', function($scope){
+	
+	"use strict";
+	
+	$scope.text = "Hello world";	
+	
+}]);]]></script>
         <script_name>k16.incident_manager.ctlr</script_name>
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-08 21:45:48</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>796db8e3c3221200a8625ad551d3aedb</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>sn_k16_im.k16.incident_manager.ctlr</sys_name>
         <sys_package display_value="K16 Incident Manager" source="sn_k16_im">ce99b4e3c3221200a8625ad551d3ae65</sys_package>
         <sys_policy/>
@@ -26,7 +32,7 @@ Contents:&#13;
         <sys_scope display_value="K16 Incident Manager">ce99b4e3c3221200a8625ad551d3ae65</sys_scope>
         <sys_update_name>sys_ui_script_796db8e3c3221200a8625ad551d3aedb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-09 07:55:39</sys_updated_on>
+        <sys_updated_on>2016-05-17 20:58:07</sys_updated_on>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>
